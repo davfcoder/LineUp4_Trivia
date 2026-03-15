@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://c4ac2kujvamhd"]
+
+[ext_resource type="Script" uid="uid://dvxkf8i8x20li" path="res://juego_principal.gd" id="1_02pbp"]
+
+[node name="JuegoPrincipal" type="Node2D" unique_id=1930551363]
+script = ExtResource("1_02pbp")
+
+[node name="CapaUI" type="CanvasLayer" parent="." unique_id=493882631]
+
+[node name="PantallaPregunta" type="Panel" parent="CapaUI" unique_id=2142031910]
+offset_right = 1152.0
+offset_bottom = 647.0
+
+[node name="TextoPregunta" type="Label" parent="CapaUI/PantallaPregunta" unique_id=272605699]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 101.0
+offset_right = 1151.0
+offset_bottom = 124.0
+text = "Aquí irá la pregunta"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="TextoReloj" type="Label" parent="CapaUI/PantallaPregunta" unique_id=1124985168]
+layout_mode = 0
+offset_right = 100.0
+offset_bottom = 45.0
+text = "15"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ContenedorBotones" type="VBoxContainer" parent="CapaUI/PantallaPregunta" unique_id=1480074080]
+layout_mode = 0
+offset_left = 397.0
+offset_top = 168.0
+offset_right = 768.0
+offset_bottom = 294.0
+
+[node name="A" type="Button" parent="CapaUI/PantallaPregunta/ContenedorBotones" unique_id=927517820]
+layout_mode = 2
+
+[node name="B" type="Button" parent="CapaUI/PantallaPregunta/ContenedorBotones" unique_id=740222296]
+layout_mode = 2
+
+[node name="C" type="Button" parent="CapaUI/PantallaPregunta/ContenedorBotones" unique_id=1323849831]
+layout_mode = 2
+
+[node name="D" type="Button" parent="CapaUI/PantallaPregunta/ContenedorBotones" unique_id=112784136]
+layout_mode = 2
+
+[node name="TableroColumnas" type="HBoxContainer" parent="." unique_id=955413798]
+offset_left = 101.0
+offset_top = 59.0
+offset_right = 1056.0
+offset_bottom = 573.0
+
+[node name="Button" type="Button" parent="TableroColumnas" unique_id=1313487157]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button2" type="Button" parent="TableroColumnas" unique_id=703318562]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button3" type="Button" parent="TableroColumnas" unique_id=1072608856]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button4" type="Button" parent="TableroColumnas" unique_id=1670855007]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button5" type="Button" parent="TableroColumnas" unique_id=91001177]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button6" type="Button" parent="TableroColumnas" unique_id=1808187041]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Button7" type="Button" parent="TableroColumnas" unique_id=870020122]
+layout_mode = 2
+size_flags_horizontal = 3
