@@ -92,3 +92,5 @@ one_shot = true
 [node name="SonidoEfectos" type="AudioStreamPlayer" parent="." unique_id=1688921122]
 
 [node name="SonidoUI" type="AudioStreamPlayer" parent="." unique_id=1538265214]
+
+[node name="MusicaJuego" type="AudioStreamPlayer" parent="." unique_id=347171645]
